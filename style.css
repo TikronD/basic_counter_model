@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: 15px;
+  background-color: #548cff;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+}
+
+#container {
+  display: flex; /* partent container */
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.position {
+  /* child class in container */
+  background-color: #548cff;
+  width: 200px;
+  height: 200px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.coin {
+  background-image: url(./images/coin.gif);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.upgrade-box {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 500px;
+  gap: 5px;
+}
+
+.position h4 {
+  margin: 0px;
+}
+
+.div-left {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  left: 20px;
+  top: 80px;
+  width: 360px;
+  height: 250px;
+  padding: 1rem;
+}
+
+.left-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.div-right {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  right: 20px;
+  top: 80px;
+  width: 360px;
+  height: 250px;
+  padding: 1rem;
+}
+
+.right-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.div-below {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
